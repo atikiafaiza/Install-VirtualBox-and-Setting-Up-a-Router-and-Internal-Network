@@ -46,6 +46,12 @@ VirtualBox may auto-fill some settings like the operating system and version bas
 In the "Folder" field, browse to the folder you just created to store the virtual machine files and select it.
 In the "ISO Image" field, browse to the location where you downloaded the lubuntu.iso file and select the file.
 
+Allocate Resources (Optional):
+
+VirtualBox might ask you to configure resources like:
+Memory Size: Choose the recommended size or adjust based on your system's capacity.
+Disk Space: Choose the default settings unless you have specific requirements.
+
 After reviewing the configuration, click "Finish" to create the virtual machine.
 
 <div style="text-align: center;">
@@ -59,11 +65,6 @@ After reviewing the configuration, click "Finish" to create the virtual machine.
 <img src="./image/installLubuntu.jpeg" alt="Enable Virtualization" width="600">
 </div>
 
-Open VirtualBox:
-
-
-Locate and click the "New" button in the VirtualBox Manager interface.
-Name Your Virtual Machine:
 
 
 
