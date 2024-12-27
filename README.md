@@ -70,7 +70,27 @@ In the window that appears, choose "Install Lubuntu" to begin the installation p
 <img src="./image/installLubuntu.jpeg" alt="Enable Virtualization" width="600">
 </div>
 
+After the installation begins, you'll see a Welcome page. Select your preferred language, Location, and Keyboard Layout.
 
+Choose Normal Installation for a full Lubuntu installation.
+When prompted for partitioning options, select Erase disk and install Lubuntu. Confirm if you’re asked to erase the disk.
+
+<div style="text-align: center;">
+<img src="./image/erasedisk.jpg" alt="Enable Virtualization" width="600">
+</div>
+
+In the user configuration section, enter a short user name (e.g., user), set the password as 1234, confirm the password, and click Continue.
+
+<div style="text-align: center;">
+<img src="./image/userinfo.jpg" alt="Enable Virtualization" width="600">
+</div>
+
+Click Install to begin the installation process. Once the installation is done, click Finish.
+Restart the virtual machine if prompted.
+
+<div style="text-align: center;">
+<img src="./image/finish.jpg" alt="Enable Virtualization" width="600">
+</div>
 
 
 
