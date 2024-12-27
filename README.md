@@ -48,10 +48,7 @@ In the "ISO Image" field, browse to the location where you downloaded the lubunt
 
 Allocate Resources (Optional):
 
-VirtualBox might ask you to configure resources like:
-
-Memory Size: Choose the recommended size or adjust based on your system's capacity.
-Disk Space: Choose the default settings unless you have specific requirements.
+VirtualBox might ask you to configure resources like suggest a recommended memory size for Lubuntu. You can either accept the default value or adjust it based on your system's capacity (e.g., 1 GB or more is ideal for Lubuntu). For disk space, follow the guided steps to create a virtual hard disk and choose the default settings unless you have specific requirements.
 
 After reviewing the configuration, click "Finish" to create the virtual machine.
 
