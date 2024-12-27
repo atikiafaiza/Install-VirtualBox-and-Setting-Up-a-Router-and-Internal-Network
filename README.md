@@ -93,5 +93,41 @@ Restart the virtual machine if prompted.
 </div>
 
 
+# Setting Up a Router and Internal Network:
 
+#### 1.Create a Linked Clone: Clone your "host" VM again and name this clone "router."
 
+<div style="text-align: center;">
+<img src="./image/cloning_router.png" alt="Enable Virtualization" width="600">
+</div>
+
+#### 2.Configure the Router in VirtualBox:
+Go to the settings for the "Router" VM.
+Set up network adapters as follows:
+
+Adapter 1: Attach to NAT (for internet access).
+
+<div style="text-align: center;">
+<img src="./image/setting_adapter1_in_router.png" alt="Enable Virtualization" width="600">
+</div>
+
+Adapter 2: Enable and attach to "Internal Network."
+
+<div style="text-align: center;">
+<img src="./image/ad2_router.png" alt="Enable Virtualization" width="600">
+</div>
+
+#### 3.Configure Network Settings in the Router VM:
+Boot up the "Router" VM and open Network settings.
+Configure the Ethernet settings:
+
+Adapter 1 (NAT): Set IPv4 to Automatic (DHCP).
+
+Adapter 2 (Internal Network):
+Set IPv4 to Manual.
+Assign IPv4 address: 192.168.0.1.
+Set Netmask to 255.255.255.0.
+
+<div style="text-align: center;">
+<img src="./image/wired2_router.png" alt="Enable Virtualization" width="600">
+</div>
