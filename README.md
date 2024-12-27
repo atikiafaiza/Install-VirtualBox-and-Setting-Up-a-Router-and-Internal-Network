@@ -14,3 +14,14 @@ If you see Virtualization: Disabled, it means virtualization is currently turne
 <div style="text-align: center;">
 <img src="./image/enablingvirtualizationfromtaskmanager.png" alt="Enable Virtualization" width="600">
 </div>
+
+
+#To get started with VirtualBox and Lubuntu, follow these steps:
+
+####1. Download and Install VirtualBox:
+Visit the VirtualBox Downloads page.
+On the page, select the appropriate version for your operating system (Windows, macOS, Linux, etc.).
+Once the download is complete, open the installer and follow the on-screen instructions to install VirtualBox on your computer.
+####2. Download the Latest Version of Lubuntu:
+After installing VirtualBox, go to the Lubuntu Download page.
+Click on the latest version of Lubuntu to start downloading the ISO file.
