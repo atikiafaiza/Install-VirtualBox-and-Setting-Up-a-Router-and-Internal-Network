@@ -1,5 +1,5 @@
 # Install Virtual Box:
-To check if virtualization is enabled and enable it if necessary. Then, follow these steps:
+To check if virtualization is enabled and enable it if necessary, follow these steps:
 
 #### 1. Open Task Manager:
 
