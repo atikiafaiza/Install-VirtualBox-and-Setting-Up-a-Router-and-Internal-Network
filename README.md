@@ -49,6 +49,7 @@ In the "ISO Image" field, browse to the location where you downloaded the lubunt
 Allocate Resources (Optional):
 
 VirtualBox might ask you to configure resources like:
+
 Memory Size: Choose the recommended size or adjust based on your system's capacity.
 Disk Space: Choose the default settings unless you have specific requirements.
 
