@@ -32,12 +32,11 @@ Create a new folder on a drive other than C to be safe. Name the folder exactly 
 <img src="./image/folder.jpeg" alt="Enable Virtualization" width="600">
 </div>
 
-# Create Virtual Machine(Host):
+#### 4.Create Virtual Machine(Host):
 Launch the VirtualBox application on your system.
-Click on "New".
-In the dialog box that appears:
-Enter the name as host.
-Be careful with the naming—do not change it later.
+
+Click on "New". 
+In the dialog box that appears, enter the name as host.(Be careful with the naming—do not change it later.)
 VirtualBox may auto-fill some settings like the operating system and version based on the name. If not, set them manually:
 Type: Linux
 Version: Ubuntu (32-bit or 64-bit, depending on your ISO)
@@ -68,12 +67,6 @@ Open VirtualBox:
 Locate and click the "New" button in the VirtualBox Manager interface.
 Name Your Virtual Machine:
 
-Allocate Resources (Optional):
-
-VirtualBox might ask you to configure resources like:
-Memory Size: Choose the recommended size or adjust based on your system's capacity.
-Disk Space: Follow the guided steps to create or select a virtual hard disk.
-Click "Finish":
 
 
 
