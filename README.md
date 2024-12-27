@@ -209,7 +209,7 @@ In VirtualBox (not the VM), set the network for the "host" VM to Internal Networ
 <img src="./image/ad1_host.png" alt="Enable Virtualization" width="600">
 </div> 
 
-Boot the Host1 VM and set up the network.
+#### 5.Boot the Host1 VM and set up the network.
 
 Configure IPv4 Settings:
 Set IPv4 to Manual.
@@ -222,7 +222,7 @@ Set DNS to: 1.1.1.1.
 <img src="./image/host_ipv4.png" alt="Enable Virtualization" width="600">
 </div> 
 
-Test Local Connectivity:
+#### 6.Test Local Connectivity:
 
 Run the following command to verify that your Host1 VM can reach the Router VM:
 oping 192.168.0.1
@@ -231,7 +231,7 @@ oping 192.168.0.1
 <img src="./image/host_c1.png" alt="Enable Virtualization" width="600">
 </div> 
 
-Test External Connectivity:
+#### 7.Test External Connectivity:
 
 Verify Internet connectivity:
 Run:
@@ -242,7 +242,7 @@ ping <external IP> (e.g., ping 8.8.8.8).
 <img src="./image/host_c2.png" alt="Enable Virtualization" width="600">
 </div> 
 
-Test DNS Resolution:
+#### 8.Test DNS Resolution:
 Run:
 ping google.com
 
@@ -253,7 +253,7 @@ ping google.com
 
 This checks if DNS is working and resolves external hostnames correctly
 
-Similarly the router can also ping the host
+#### 9.Similarly the router can also ping the host
 
 Run:
 ping 192.168.0.2
@@ -263,7 +263,7 @@ ping 192.168.0.2
 <img src="./image/router_ping.png" alt="Enable Virtualization" width="600">
 </div> 
 
-The browser icon also can ping google.com using graphical interface
+#### 10.The browser icon also can ping google.com using graphical interface
 
 
 <div style="text-align: center;">
