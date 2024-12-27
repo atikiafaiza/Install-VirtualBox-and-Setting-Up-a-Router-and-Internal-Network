@@ -260,7 +260,7 @@ ping 192.168.0.2
 
 
 <div style="text-align: center;">
-<img src="./image/host_c4.png" alt="Enable Virtualization" width="600">
+<img src="./image/router_ping.png" alt="Enable Virtualization" width="600">
 </div> 
 
 The browser icon also can ping google.com using graphical interface
