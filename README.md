@@ -18,21 +18,21 @@ If you see Virtualization: Disabled, it means virtualization is currently turne
 
 # Get started with VirtualBox and Lubuntu:
 
-#### 1.Download and Install VirtualBox:
+#### 1. Download and Install VirtualBox:
 Visit the [VirtualBox Downloads page](https://www.virtualbox.org/wiki/Downloads).
 On the page, select the appropriate version for your operating system (Windows, macOS, Linux, etc.).
 Once the download is complete, open the installer and follow the on-screen instructions to install VirtualBox on your computer.
-#### 2.Download the Latest Version of Lubuntu:
+#### 2. Download the Latest Version of Lubuntu:
 After installing VirtualBox, go to the [Lubuntu Download page](https://lubuntu.me/downloads/).
 Click on the latest version of Lubuntu to start downloading the ISO file.
 Don't Install Lubuntu now.
-#### 3.Create a folder:
+#### 3. Create a folder:
 Create a new folder on a drive other than C to be safe. Name the folder exactly as "Virtual Box" (be sure to match the capitalization and spelling).
 <div style="text-align: center;">
 <img src="./image/folder.jpeg" alt="Enable Virtualization" width="600">
 </div>
 
-#### 4.Create Virtual Machine(Host):
+#### 4. Create Virtual Machine(Host):
 Launch the VirtualBox application on your system.Click on "New". 
 
 In the dialog box that appears, enter the name as "host".(Be careful with the naming—do not change it later.)
@@ -53,11 +53,18 @@ VirtualBox might ask you to configure resources like suggest a recommended memor
 After reviewing the configuration, click "Finish" to create the virtual machine.
 
 <div style="text-align: center;">
-<img src="./image/setuphost.jpeg" alt="Enable Virtualization" width="700">
+<img src="./image/setuphost.jpeg" alt="Enable Virtualization" width="600">
 </div>
+
+#### 5. Install Lubuntu
+In VirtualBox, select the host virtual machine you just created and click Start.
+
 <div style="text-align: center;">
 <img src="./image/start.jpeg" alt="Enable Virtualization" width="600">
 </div>
+
+When the boot menu appears, use the arrow keys to select "Try or Install Lubuntu" and press Enter.
+In the window that appears, choose "Install Lubuntu" to begin the installation process.
 
 <div style="text-align: center;">
 <img src="./image/installLubuntu.jpeg" alt="Enable Virtualization" width="600">
