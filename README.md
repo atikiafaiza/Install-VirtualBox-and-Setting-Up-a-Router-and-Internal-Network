@@ -1,4 +1,4 @@
-# Steps to Install Virtual Box:
+# Install Virtual Box:
 To check if virtualization is enabled and enable it if necessary, follow these steps:
 
 #### 1. Open Task Manager:
@@ -16,7 +16,7 @@ If you see Virtualization: Disabled, it means virtualization is currently turne
 </div>
 
 
-# To get started with VirtualBox and Lubuntu, follow these steps:
+# Get started with VirtualBox and Lubuntu:
 
 #### 1.Download and Install VirtualBox:
 Visit the VirtualBox Downloads page.
