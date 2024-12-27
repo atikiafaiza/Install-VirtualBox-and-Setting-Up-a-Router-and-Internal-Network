@@ -26,3 +26,9 @@ Once the download is complete, open the installer and follow the on-screen instr
 After installing VirtualBox, go to the [Lubuntu Download page](https://lubuntu.me/downloads/).
 Click on the latest version of Lubuntu to start downloading the ISO file.
 Don't Install Lubuntu now.
+#### 3.Create a folder:
+Create a new folder on a drive other than C to be safe. Name the folder exactly as "Virtual Box" (be sure to match the capitalization and spelling).
+<div style="text-align: center;">
+<img src="./image/folder.jpeg" alt="Enable Virtualization" width="600">
+</div>
+
