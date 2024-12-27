@@ -19,9 +19,9 @@ If you see Virtualization: Disabled, it means virtualization is currently turne
 # Get started with VirtualBox and Lubuntu:
 
 #### 1.Download and Install VirtualBox:
-Visit the VirtualBox Downloads page.
+Visit the [VirtualBox Downloads page](https://www.virtualbox.org/wiki/Downloads).
 On the page, select the appropriate version for your operating system (Windows, macOS, Linux, etc.).
 Once the download is complete, open the installer and follow the on-screen instructions to install VirtualBox on your computer.
 #### 2.Download the Latest Version of Lubuntu:
-After installing VirtualBox, go to the Lubuntu Download page.
+After installing VirtualBox, go to the [Lubuntu Download page](https://lubuntu.me/downloads/).
 Click on the latest version of Lubuntu to start downloading the ISO file.
