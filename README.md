@@ -33,7 +33,7 @@ Create a new folder on a drive other than C to be safe. Name the folder exactly 
 </div>
 
 #### 4. Create Virtual Machine(Host):
-Launch the VirtualBox application on your system.Click on "New". 
+Launch the VirtualBox application on your system.Click on "New". <img src="./image/new.png" alt="new" width="100">
 
 In the dialog box that appears, enter the name as "host".(Be careful with the naming—do not change it later.)
 
