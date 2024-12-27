@@ -131,3 +131,30 @@ Set Netmask to 255.255.255.0.
 <div style="text-align: center;">
 <img src="./image/wired2_router.png" alt="Enable Virtualization" width="600">
 </div>
+
+Start a terminal:
+
+<div style="text-align: center;">
+<img src="./image/Qterminal.png" alt="Enable Virtualization" width="600">
+</div> 
+
+<div style="text-align: center;">
+<img src="./image/router_c1.png" alt="Enable Virtualization" width="600">
+</div> 
+
+
+Edit sysctl.conf: Open /etc/sysctl.conf and uncomment the line:
+net.ipv4.ip_forward=1
+Reload sysctl.conf: Run: sudo sysctl -p
+This reloads the changes to the system configuration.
+Note the Adapter 1 Interface: Run: ip addr
+Configure NAT with iptables: Run the following command to enable NAT (Network Address Translation) and allow outbound connections:
+sudo iptables -t nat -A POSTROUTING -o <interface> -j MASQUERADE
+
+Replace <interface> with the name of your Adapter 1 interface (e.g., enp0s3).
+Install iptables-persistent: Run:
+sudo apt install iptables-persistent
+This ensures that iptables rules persist after reboot.
+Run the following commands and capture their output:
+ip addr - To check network interfaces and their configurations.
+sudo iptables -t nat -L - To show the iptables NAT rule that was added.
