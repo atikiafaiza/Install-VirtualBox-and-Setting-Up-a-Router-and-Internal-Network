@@ -25,3 +25,4 @@ Once the download is complete, open the installer and follow the on-screen instr
 #### 2.Download the Latest Version of Lubuntu:
 After installing VirtualBox, go to the [Lubuntu Download page](https://lubuntu.me/downloads/).
 Click on the latest version of Lubuntu to start downloading the ISO file.
+Don't Install Lubuntu now.
