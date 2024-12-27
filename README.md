@@ -144,17 +144,52 @@ Start a terminal:
 
 
 Edit sysctl.conf: Open /etc/sysctl.conf and uncomment the line:
+
+<div style="text-align: center;">
+<img src="./image/router_c2.png" alt="Enable Virtualization" width="600">
+</div> 
+
 net.ipv4.ip_forward=1
+
+<div style="text-align: center;">
+<img src="./image/router_c3.png" alt="Enable Virtualization" width="600">
+</div> 
+
 Reload sysctl.conf: Run: sudo sysctl -p
 This reloads the changes to the system configuration.
+
+<div style="text-align: center;">
+<img src="./image/router_c4.png" alt="Enable Virtualization" width="600">
+</div> 
+
 Note the Adapter 1 Interface: Run: ip addr
+
+<div style="text-align: center;">
+<img src="./image/router_c5.png" alt="Enable Virtualization" width="600">
+</div> 
+
 Configure NAT with iptables: Run the following command to enable NAT (Network Address Translation) and allow outbound connections:
 sudo iptables -t nat -A POSTROUTING -o <interface> -j MASQUERADE
 
+<div style="text-align: center;">
+<img src="./image/router_c6.png" alt="Enable Virtualization" width="600">
+</div> 
+
 Replace <interface> with the name of your Adapter 1 interface (e.g., enp0s3).
-Install iptables-persistent: Run:
+Install iptables-persistent: 
+Run:
 sudo apt install iptables-persistent
 This ensures that iptables rules persist after reboot.
+
+<div style="text-align: center;">
+<img src="./image/router_c7.png" alt="Enable Virtualization" width="600">
+</div> 
+
 Run the following commands and capture their output:
 ip addr - To check network interfaces and their configurations.
 sudo iptables -t nat -L - To show the iptables NAT rule that was added.
+
+<div style="text-align: center;">
+<img src="./image/router_c8.png" alt="Enable Virtualization" width="600">
+</div> 
+
