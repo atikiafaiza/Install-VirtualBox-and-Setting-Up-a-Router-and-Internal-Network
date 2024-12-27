@@ -53,7 +53,7 @@ VirtualBox might ask you to configure resources like suggest a recommended memor
 After reviewing the configuration, click "Finish" to create the virtual machine.
 
 <div style="text-align: center;">
-<img src="./image/setuphost.jpeg" alt="Enable Virtualization" width="600">
+<img src="./image/setuphost.jpeg" alt="Enable Virtualization" width="700">
 </div>
 <div style="text-align: center;">
 <img src="./image/start.jpeg" alt="Enable Virtualization" width="600">
