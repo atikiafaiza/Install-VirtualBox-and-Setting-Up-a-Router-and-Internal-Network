@@ -95,10 +95,18 @@ Restart the virtual machine if prompted.
 
 # Setting Up a Router and Internal Network:
 
-#### 1.Create a Linked Clone: Clone your "host" VM again and name this clone "router."
+#### 1.Create Linked Clone: Clone your "host" VM twice and name these clone "router" and "host1."
 
 <div style="text-align: center;">
 <img src="./image/cloning_router.png" alt="Enable Virtualization" width="600">
+</div>
+
+<div style="text-align: center;">
+<img src="./image/cloning_host1.png" alt="Enable Virtualization" width="600">
+</div>
+
+<div style="text-align: center;">
+<img src="./image/clonned_router_host1.png" alt="Enable Virtualization" width="600">
 </div>
 
 #### 2.Configure the Router in VirtualBox:
@@ -192,4 +200,57 @@ sudo iptables -t nat -L - To show the iptables NAT rule that was added.
 <div style="text-align: center;">
 <img src="./image/router_c8.png" alt="Enable Virtualization" width="600">
 </div> 
+
+#### 4.Configure Network Adapter in VirtualBox:
+
+In VirtualBox (not the VM), set the network for the "host" VM to Internal Network, similar to the Adapter 2 configuration for the "router" VM.
+
+<div style="text-align: center;">
+<img src="./image/ad1_host.png" alt="Enable Virtualization" width="600">
+</div> 
+
+Boot the Host1 VM and set up the network.
+
+Configure IPv4 Settings:
+Set IPv4 to Manual.
+Set the IPv4 address to: 192.168.0.2.
+Set the Netmask to: 255.255.255.0.
+Set the Gateway to: 192.168.0.1.
+Set DNS to: 1.1.1.1.
+
+<div style="text-align: center;">
+<img src="./image/host_ipv4.png" alt="Enable Virtualization" width="600">
+</div> 
+
+Test Local Connectivity:
+
+Run the following command to verify that your Host1 VM can reach the Router VM:
+oping 192.168.0.1
+
+<div style="text-align: center;">
+<img src="./image/host_c1.png" alt="Enable Virtualization" width="600">
+</div> 
+
+Test External Connectivity:
+
+Verify Internet connectivity:
+Run:
+ping <external IP> (e.g., ping 8.8.8.8).
+
+
+<div style="text-align: center;">
+<img src="./image/host_c2.png" alt="Enable Virtualization" width="600">
+</div> 
+
+Test DNS Resolution:
+Run:
+ping google.com
+
+
+<div style="text-align: center;">
+<img src="./image/host_c3.png" alt="Enable Virtualization" width="600">
+</div> 
+
+This checks if DNS is working and resolves external hostnames correctly
+
 
