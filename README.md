@@ -39,8 +39,9 @@ In the dialog box that appears, enter the name as "host".(Be careful with the na
 
 VirtualBox may auto-fill some settings like the operating system and version based on the name. If not, set them manually:
 
-#######Type: Linux
-#######Version: Ubuntu (32-bit or 64-bit, depending on your ISO)
+####### Type: Linux
+####### Subtype: Ubuntu
+####### Version: Ubuntu (32-bit or 64-bit, depending on your ISO)
 
 In the "Folder" field, browse to the folder you just created to store the virtual machine files and select it.
 In the "ISO Image" field, browse to the location where you downloaded the lubuntu.iso file and select the file.
