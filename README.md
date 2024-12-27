@@ -33,21 +33,18 @@ Create a new folder on a drive other than C to be safe. Name the folder exactly 
 </div>
 
 #### 4.Create Virtual Machine(Host):
-Launch the VirtualBox application on your system.
+Launch the VirtualBox application on your system.Click on "New". 
 
-Click on "New". 
-In the dialog box that appears, enter the name as host.(Be careful with the naming—do not change it later.)
+In the dialog box that appears, enter the name as "host".(Be careful with the naming—do not change it later.)
+
 VirtualBox may auto-fill some settings like the operating system and version based on the name. If not, set them manually:
-Type: Linux
-Version: Ubuntu (32-bit or 64-bit, depending on your ISO)
-Select the Folder:
 
-In the "Machine Folder" field, browse to the folder you just created to store the virtual machine files.
-Choose the ISO File:
+#######Type: Linux
+#######Version: Ubuntu (32-bit or 64-bit, depending on your ISO)
 
-When prompted to select a startup disk or ISO file:
-Browse to the location where you downloaded the lubuntu.iso file.
-Select the file.
+In the "Folder" field, browse to the folder you just created to store the virtual machine files and select it.
+In the "ISO Image" field, browse to the location where you downloaded the lubuntu.iso file and select the file.
+
 After reviewing the configuration, click "Finish" to create the virtual machine.
 
 <div style="text-align: center;">
